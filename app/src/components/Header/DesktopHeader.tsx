@@ -6,7 +6,7 @@ import { Link, useMatch } from 'react-router-dom';
 import styled, { createGlobalStyle } from 'styled-components';
 import LogoAvax from './assets/LogoAvax.svg';
 import LogoEth from './assets/LogoEth.svg';
-import LogoTerra from './assets/LogoTerra.svg';
+import Kryptonite from './assets/Kryptonite.svg';
 import { ChainSelector } from './chain/ChainSelector';
 import { DesktopNotification } from './desktop/DesktopNotification';
 import { TransactionWidget } from './transactions/TransactionWidget';
@@ -28,7 +28,7 @@ function DesktopHeaderBase({ className }: DesktopHeaderProps) {
         rel="noreferrer"
       >
         <DeploymentSwitch
-          terra={() => <img src={LogoTerra} alt="terraLogo" />}
+          terra={() => <img src={Kryptonite} alt="terraLogo" />}
           ethereum={() => <img src={LogoEth} alt="ethLogo" />}
           avalanche={() => <img src={LogoAvax} alt="avaxLogo" />}
         />

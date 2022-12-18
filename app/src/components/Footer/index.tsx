@@ -66,7 +66,7 @@ function FooterBase({ className, style }: FooterProps) {
       <div>
         <IconButton
           component="a"
-          href="https://discord.gg/9aUYgpKZ9c"
+          href="https://discord.gg/kryptonite"
           target="_blank"
           rel="noreferrer"
         >
@@ -74,7 +74,7 @@ function FooterBase({ className, style }: FooterProps) {
         </IconButton>
         <IconButton
           component="a"
-          href="https://twitter.com/anchor_protocol"
+          href="https://twitter.com/kryptonite"
           target="_blank"
           rel="noreferrer"
         >
@@ -82,7 +82,7 @@ function FooterBase({ className, style }: FooterProps) {
         </IconButton>
         <IconButton
           component="a"
-          href="https://t.me/anchor_official"
+          href="https://t.me/kryptonite"
           target="_blank"
           rel="noreferrer"
         >
@@ -90,7 +90,7 @@ function FooterBase({ className, style }: FooterProps) {
         </IconButton>
         <IconButton
           component="a"
-          href="https://github.com/Anchor-Protocol"
+          href="https://github.com/kryptonite"
           target="_blank"
           rel="noreferrer"
         >
