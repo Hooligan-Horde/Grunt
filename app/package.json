@@ -20,7 +20,7 @@
       "../.eslintrc.js"
     ]
   },
-  "jest": {
+  "jest": { 
     "collectCoverageFrom": [
       "src/**/*.ts?(x)",
       "!**/*.d.ts?(x)",
