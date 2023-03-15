@@ -38,6 +38,7 @@ function Component({ className }: BAssetMainProps) {
         must go through the convert operation to be used as collateral on
         Anchor.
       </MessageBox>
+      <></>
 
       <Claimable className="claimable-section" />
 
